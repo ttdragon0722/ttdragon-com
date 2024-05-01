@@ -1,0 +1,41 @@
+{
+  "name": "ttdragon-com",
+  "version": "1.0.2",
+  "description": "ttdragon's react components",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ttdragon0722/ttdragon-com.git"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "react-components"
+  ],
+  "author": "rex",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "react": "^18.3.1",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  }
+}

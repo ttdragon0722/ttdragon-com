@@ -1,6 +1,6 @@
 {
   "name": "ttdragon-com",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "ttdragon's react components",
   "main": "dist/index.js",
   "files": [
@@ -36,6 +36,10 @@
     "react": "^18.2.0"
   },
   "dependencies": {
-    "rimraf": "^5.0.5"
+    "@gsap/react": "^2.1.1",
+    "@types/uuid": "^9.0.8",
+    "gsap": "^3.12.5",
+    "rimraf": "^5.0.5",
+    "uuid": "^9.0.1"
   }
 }

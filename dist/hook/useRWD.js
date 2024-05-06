@@ -6,6 +6,8 @@ const react_1 = require("react");
  * ### RWD
  * listen to window size
  * @returns window width
+ * @example
+ * const device = useRWD();
  */
 const useRWD = () => {
     const [view, setView] = (0, react_1.useState)(0);
